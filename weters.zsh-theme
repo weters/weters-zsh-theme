@@ -42,7 +42,7 @@ prompt_end() {
     print -n "%{%k%}"
   fi
   print -n "%{%f%}"
-  print -n "\n%K{196} $ %k%F{196}%k%f"
+  print -n "\n%K{196} %F{white}$ %k%F{196}%k%f"
   CURRENT_BG=''
 }
 
