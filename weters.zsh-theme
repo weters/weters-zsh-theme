@@ -42,7 +42,7 @@ prompt_end() {
     print -n "%{%k%}"
   fi
   print -n "%{%f%}"
-  print -n "\n%K{244} %F{15}$ %k%F{244}%k%f"
+  print -n "\n %F{2}➜%f"
   CURRENT_BG=''
 }
 
