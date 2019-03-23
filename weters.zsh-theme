@@ -85,7 +85,7 @@ prompt_git() {
       ref="$DETACHED ${ref/.../}"
     fi
     prompt_segment $color white
-    print -n " $ref"
+    print -n " $ref "
   fi
 }
 
