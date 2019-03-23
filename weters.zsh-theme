@@ -10,9 +10,9 @@ if [[ -z "$PRIMARY_FG" ]]; then
 fi
 
 # Characters
-SEGMENT_SEPARATOR="\ue0b0"
+SEGMENT_SEPARATOR=""
 PLUSMINUS="\u00b1"
-BRANCH="\ue0a0"
+BRANCH="\u16a0"
 DETACHED="\u27a6"
 CROSS="\u2718"
 LIGHTNING="\u26a1"
