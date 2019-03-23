@@ -74,7 +74,7 @@ prompt_git() {
   if [[ -n "$ref" ]]; then
     if is_dirty; then
       color=202 # orange
-      ref="${ref} $PLUSMINUS"
+      ref="${ref} $PLUSMINUS "
     else
       color=28 # green
       ref="${ref} "
@@ -85,7 +85,7 @@ prompt_git() {
       ref="$DETACHED ${ref/.../}"
     fi
     prompt_segment $color white
-    print -n " $ref "
+    print -n " $ref"
   fi
 }
 
